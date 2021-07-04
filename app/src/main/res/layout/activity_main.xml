@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageViewIntro"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:contentDescription="@string/warranty_logo"
+        app:srcCompat="@drawable/warranty" />
+
+    <TextView
+        android:id="@+id/textViewh1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/convenient_use"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/textViewh2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/this_app_that_allows_the_user_to_maintain_a_list_of_products_and_their_warranty_expiry_date"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/buttonApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/website_for_this_app" />
+
+    <Button
+        android:id="@+id/buttonItemList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/click_here_to_use_app"
+        app:backgroundTint="#F44336" />
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Assignment</string>
+    <string name="convenient_use">Convenient use</string>
+    <string name="this_app_that_allows_the_user_to_maintain_a_list_of_products_and_their_warranty_expiry_date">This app that allows the user to maintain a list of products and their warranty expiry date.</string>
+    <string name="website_for_this_app">Website for this app</string>
+    <string name="click_here_to_use_app">Click here to use app</string>
+    <string name="warranty_logo">Warranty logo</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="enter_position">Enter position</string>
+    <string name="expires_yyyy_m_d_item_name">Expires YYYY-M-D Item name</string>
+    <string name="add">Add</string>
+    <string-array name="spinnerItems">
+        <item>1 month</item>
+        <item>3 months</item>
+        <item>6 months</item>
+    </string-array>
+</resources>
